@@ -1,0 +1,127 @@
+.header_line {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(50%, 50%);
+    color : rgb(8, 10, 57);
+    font-weight: 300;
+    font-family: fira sans, Arial;
+    font-size: xx-large; text-align: left;
+    margin-top: 90px;
+}
+.header_image {
+    width: 100%;
+    height: 300px;
+}
+.container {
+position: relative;
+}
+
+.female_pic {
+    text-align: center;
+}
+.login, .signup {
+    background-color: rgb(8, 10, 57);
+    color : white;
+    border: none;
+    width: 130px;
+    height: 60px;
+    border-radius: 40px;
+    cursor: pointer;
+    border-right: 10px;
+    transition: opacity 1s;
+    font-size: large;
+}
+
+.login:active, .signup:active {
+    background-color : rgba(8, 10, 57, 0.5);
+}
+.icons-text {
+    text-align: right;
+    display: inline-block;
+    margin-left : 5px;
+    vertical-align: text-bottom;
+    font-size: large;
+    font-weight: bold;
+}
+.cloud {
+    height : 500px;
+    margin-left: 0px;
+    width: 500px;
+    display: inline;
+}
+
+.cloud-text {
+    position: absolute; top: 20%; right: 60%; transform: translate(50%, 50%); font-size: medium; color: white; width: 65%;
+}
+
+.why-text {
+    position: absolute; top: 0%; right: 70%; transform: translate(50%, 50%); height: 20%; color: #669db5; font-size: 70px; font-size: xx-large;
+    width: 300px; text-align: center; font-weight: bolder;
+}
+
+.body-style {
+    background-color: white; font-family: fira sans, arial; color: rgb(8, 10, 57);
+}
+
+.grid-details {
+    display: grid; grid-template-columns: 1fr 0.6fr 1fr; vertical-align: top;
+}
+
+.grid-block1 {
+    margin-right: 50px; position: relative; text-align: center;
+}
+
+.grid-block1a {
+    border-radius: 25px; padding-bottom: 10px; margin-bottom: 40px;  background-color: #669db5 ; color: rgb(8, 10, 57) ; padding : 10px; margin-top: 7px;
+}
+
+.read-more {
+    font-size: small; text-align: right; cursor: pointer;
+}
+
+.ques-mark {
+    margin-left: 60%; display: inline;
+}
+
+.money-pic {
+    margin-top: 150px;
+    margin-left: 50px;
+    height: 200px;
+}
+
+.flex-container {
+    background-color: rgb(8, 10, 57);
+    color: whitesmoke;
+    display: flex;
+}
+
+.flex-item {
+    margin-right: 20px;
+    font-size: medium;
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    height: 40px;
+    margin-top: 35px;
+}
+
+.header-item {
+    font-family: 'Dancing Script', cursive;
+    margin-left: 50px;
+    font-size: xx-large;
+}
+.contact-pic {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.info {
+    color: rgb(8,10,57);
+}
+
+.contact-info {
+    font-size: x-large; color : rgb(8,10,57); font-weight: bolder;
+}
